@@ -241,6 +241,7 @@ class _MaterialControlsState extends State<MaterialControls>
           context: context,
           isScrollControlled: true,
           useRootNavigator: true,
+          backgroundColor: Colors.white,
           builder: (context) => _PlaybackSpeedDialog(
             speeds: chewieController.playbackSpeeds,
             selected: _latestValue.playbackSpeed,
